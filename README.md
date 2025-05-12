@@ -1,4 +1,4 @@
-# Zrównoleglenie rozkładu LU za pomocą OpenACC.
+# Zrównoleglenie rozkładu LU za pomocą OpenACC
 <h2>Opis</h2> Projekt polega na równoległej implementacji rozkładu LU, algorytmu powszechnie stosowanego w analizie numerycznej do rozwiązywania układów równań liniowych. Rozkład LU dzieli macierz na dwie macierze trójkątne: dolną (L) i górną (U), co umożliwia rozwiązywanie układów równań, obliczanie odwrotności macierzy oraz wyznaczanie wyznacznika.
 W projekcie wykorzystano OpenACC do równoległego przetwarzania, co pozwala na znaczne przyspieszenie obliczeń na procesorach graficznych (GPU). Program dzieli macierz na bloki, które są przetwarzane równolegle, co znacząco poprawia wydajność przy dużych macierzach. Implementacja może działać na różnych zestawach sprzętowych, w tym na systemach lokalnych z akceleracją GPU.
 
